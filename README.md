@@ -1,19 +1,8 @@
 # Pytorch Medical Segmentation
-<i>Read Chinese Introduction：<a href='https://github.com/MontaEllis/Pytorch-Medical-Segmentation/blob/master/README-zh.md'>Here！</a></i><br />
 
 ## Notes
-We are planning a major update to the code in the near future, so if you have any suggestions, please feel free to email [me](elliszkn@163.com) or mention them in the issue.
+We are planning a major update to the code in the near future, so if you have any suggestions, please feel free to email [me](debargho.basak1999@gmail.com) or mention them in the issue.
 
-## Recent Updates
-* 2021.1.8 The train and test codes are released.
-* 2021.2.6 A bug in dice was fixed with the help of [Shanshan Li](https://github.com/ssli23).
-* 2021.2.24 A video tutorial was released(https://www.bilibili.com/video/BV1gp4y1H7kq/).
-* 2021.5.16 A bug in Unet3D implement was fixed.
-* 2021.5.16 The metric code is released.
-* 2021.6.24 All parameters can be adjusted in hparam.py.
-* 2021.7.7 Now you can refer medical classification in [Pytorch-Medical-Classification](https://github.com/MontaEllis/Pytorch-Medical-Classification)
-* 2022.5.15 Now you can refer semi-supervised learning on medical segmentation in [SSL-For-Medical-Segmentation](https://github.com/MontaEllis/SSL-For-Medical-Segmentation)
-* 2022.5.17 We update the training and inference code and fix some bugs.
 
 ## Requirements
 * pytorch1.7
@@ -146,20 +135,18 @@ python main.py
 - [x] densenet3d
 - [x] unetr (copy from https://github.com/tamasino52/UNETR)
 
-### Metric
+### Metric and Dataset
 - [x] metrics.py to evaluate your results
+- [x] dataset
 
 ## TODO
-- [ ] dataset
+
 - [ ] benchmark
 - [ ] nnunet
 
-## By The Way
-This project is not perfect and there are still many problems. If you are using this project and would like to give the author some feedbacks, you can send [Me](elliszkn@163.com) an email.
 
 ## Acknowledgements
-This repository is an unoffical PyTorch implementation of Medical segmentation in 3D and 2D and highly based on [MedicalZooPytorch](https://github.com/black0017/MedicalZooPytorch) and [torchio](https://github.com/fepegar/torchio). Thank you for the above repo. The project is done with the supervisions of [Prof. Ruoxiu Xiao](http://enscce.ustb.edu.cn/Teach/TeacherList/2020-10-16/114.html) and [Dr. Cheng Chen](b20170310@xs.ustb.edu.cn). Thank you to [Youming Zhang](zhangym0820@csu.edu.cn), [Daiheng Gao](https://github.com/tomguluson92), [Jie Zhang](jpeter.zhang@connect.polyu.hk), [Xing Tao](kakatao@foxmail.com), [Weili Jiang](1379252229@qq.com) and [Shanshan Li](https://github.com/ssli23) for all the help I received.
-
+This repository is an unoffical PyTorch implementation of Medical segmentation in 3D and 2D and highly based on [MedicalZooPytorch](https://github.com/black0017/MedicalZooPytorch) and [torchio](https://github.com/fepegar/torchio). Thank you for the above repo. T
 ## Related works
 If this code is helpful for you, you can cite these for us. Thank you.
 ```
