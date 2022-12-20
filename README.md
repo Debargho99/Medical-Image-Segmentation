@@ -1,7 +1,7 @@
 # Pytorch Medical Segmentation
 
 ## Notes
-We are planning a major update to the code in the near future, so if you have any suggestions, please feel free to email [me](debargho.basak1999@gmail.com) or mention them in the issue.
+Repository for Semester project to perform Medical Image Segmentation for both 2D and 3D images  
 
 
 ## Requirements
